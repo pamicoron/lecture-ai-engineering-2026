@@ -13,7 +13,25 @@
 
 ## 宿題
 
-- 取り組んだレベル：基礎 / 実装 / 発展
-- 変えた設定やデータ：
+- 取り組んだレベル：実装
+- 変えた設定やデータ：FAQやGROUNDED,UNGROUNDED,TEST_EXTRA_GROUNDED,TEST_EXTRA_UNGROUNDEDを「松江でイベントを行う設定」で変更．
 - 結果（比較表や数字）：
+- "before": {
+    "label": "before",
+    "n": 20,
+    "format_rate": 0.25,
+    "content_rate": 0.0,
+    "both_rate": 0.0,
+    "seconds": 17.5
+  },
+  "after": {
+    "label": "after",
+    "n": 20,
+    "format_rate": 1.0,
+    "content_rate": 0.55,
+    "both_rate": 0.55,
+    "seconds": 56.2
+  },
 - ファインチューニングが向く場面・向かない場面についての考察：
+- 向く：形式を揃えたい時，特定のデータを元にし，それ以外のものを元にしたくないとき
+- 向かない：早く済ませるべきタスク．secondsが17.5→56.2と3倍近く伸びていることから．
